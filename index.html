@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Star Transport & Co. | The Perfect Transport Solution</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav >
+            <div class="logo">
+                <img src="./Images/logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="nav-item">
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#" id="postload">Post Load</a></li>
+                <li><a href="#findload" id="findload-tag">Find Load</a></li>
+                <li><a href="#" id="register">Register</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+            <div class="btn">
+                <button>Contact</button>
+            </div>
+        </nav> 
+
+        <!-- Registration Form -->
+
+        <div class="register-popup">
+            <div class="form-container">
+                <div id="cross">
+                    <button >cross</button>
+                </div>
+
+                <form autocomplete="off" >
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                        <input type="text" id="address">
+                    </div>
+                    <div>
+                        <label for="district">District</label>
+                        <input type="text" id="district">
+                    </div>
+                    <div>
+                        <label for="state">State</label>
+                        <input type="text" id="state">
+                    </div>
+                    <div>
+                        <label for="phone">Mobile No.</label>
+                        <input type="text" id="phone">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="dropdown">Who are You ?</label>
+                        <Select id="dropdown">
+                            <option value="transporter">Trasporter</option>
+                            <option value="broker">Broker</option>
+                            <option value="CommisionAgent">Commision Agent</option>
+                            <option value="driver">Driver</option>
+                            <option value="lorryowner">Lorry Owner</option>
+                        </Select>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="check">
+                         <span>All Information is correct</span>
+                    </div>
+                    <div class="submitBtn">
+                        <button type="submit" id="registration-Btn" value="Submit">Submit</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <!------postLoad-PopUp------->
+        <div class="postload-popup">
+            <div class="postload-form-container">
+                <h2>Share Details of Load</h2>
+                <div class="close">
+                    <button >close</button>
+                </div>
+                <form autocomplete="off">
+                    <div>
+                        <label for="from_destination">From:</label>
+                        <input type="text" name="from-destination" id="from_destination">
+                    </div>
+                    <div>
+                        <label for="from_destination">To:</label>
+                        <input type="text" name="to-destination" id="to_destination">
+                    </div>
+                    <div>
+                        <label for="load-type">Load Type:</label>
+                        <input type="text" name="load-type" id="load-type">
+                    </div>
+                    <div>
+                        <label for="weight">Weight:</label>
+                        <input type="text" name="weight" id="weight">
+                    </div>
+                    <div>
+                        <label for="sender">Sender Party Name/Company Name:</label>
+                        <input type="text" name="sender" id="Sender">
+                    </div>
+                    <div>
+                        <label for="Reciver">Reciver Party Name:</label>
+                        <input type="text" name="reciver" id="reciver">
+                    </div>
+                    <div>
+                        <label for="phone">Mobile No:</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="load-btn-container">
+                        <button id="load-btn" type="submit">Post Load</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- -----Home Section ------->
+        
+         <section id="home">
+            <div class="home-bg-img"></div>          
+            <div class="home-content">
+                <h1>Five Star Transport & Co.</h1>
+                <p>The Perfect Transport Solution</p>
+                <button>Contact us</button>
+            </div>
+           
+        </section>
+
+        <!--------About Section------>
+        <section id="about" >
+            <div class="bg-img"></div>
+            <div class="about-content">
+                <h1>About us</h1>
+                <p> &nbsp &nbsp We are very pleased to introduce ourselves as one of the leading ground service providers and fleet owner of the country. FIVE STAR TRASPORT AND CO. Reg.office PLOT NO.13 POCKET-2, SECTOR-21, ROHINI
+                    The company changed ranks to a partnership firm recently. The Company offered comprehensive service even forms the remotest areas in northern/central zone of the company ensuring absolute peace of mind and total customers satisfaction. The company is having its owned storage facilities at various locations in northern/central zone of India.
+                    Our company have main business is in cement industry and at present we transport coal, cement, flyash & clinker in Madhya Pradesh. We do major work in most of cement industry of M.P., U.P., Chhattisgarh, & Maharashtra.
+                </p>
+            </div>
+            <div class="team-profile">
+                <div class="profile">
+                    <img src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-profile-glyph-black-icon-png-image_691589.jpg" alt="Profile" class="profile-img">
+                     <h4>Ranjeet Singh</h4>
+                     <h5>Owner</h5>
+                </div>
+                <div class="profile">
+                    <img src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-profile-glyph-black-icon-png-image_691589.jpg" alt="Profile" class="profile-img">
+                     <h4>Ranjeet Singh</h4>
+                     <h5>CEO</h5>
+                </div>
+                <div class="profile">
+                    <img src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-profile-glyph-black-icon-png-image_691589.jpg" alt="Profile" class="profile-img">
+                     <h4>Ranjeet Singh</h4>
+                     <h5>Partner</h5>
+                </div>
+                <div class="profile">
+                    <img src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-profile-glyph-black-icon-png-image_691589.jpg" alt="Profile" class="profile-img">
+                     <h4>Ranjeet Singh</h4>
+                     <h5>Partner</h5>
+                </div>
+            </div>
+
+        </section>
+
+        <!---------services---------->
+        <section id="services">
+            <h1>Services</h1>
+            <div class="slider">
+                <div class="slides">
+                  <!--radio buttons start-->
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <input type="radio" name="radio-btn" id="radio4">
+                  <!--radio buttons end-->
+                  <!--slide images start-->
+                  <div class="slide first">
+                     <h3>Cement Loading</h3>
+                    <img src="./Images/Sliding/img-1.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <h3>Truck Loading</h3>
+                    <img src="./Images/Sliding/img-2.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <h3>Container Loading</h3>
+                    <img src="./Images/Sliding/img-3.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <h3>Loading Services</h3>
+                    <img src="./Images/Sliding/img-4.jpg" alt="">
+                  </div>
+                  <!--slide images end-->
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+                  <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+              <!--image slider end-->
+            </div>
+        </section>
+        
+        <!-- ------Find Load----- -->
+        <section id="findload">
+            <div class="findload-popup">
+                <div class="findload-form-container">
+                    <div class="findload-close-btn">
+                        <button >close</button>
+                    </div>
+                    <div class="input-container">
+    
+                        <div>
+                            <label for="findload_from">Load Looking From</label>
+                            <input type="text" name="findload_from">
+                        </div>
+                        <div>
+                            <label for="findload_to">To Destination</label>
+                            <input type="text" name="findload_to">
+                        </div>
+                        <div>
+                            <button id="findloadBtn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+        <script src="script.js" type="module"></script>
+</body>
+</html>

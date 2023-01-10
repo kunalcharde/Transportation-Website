@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "id": 13,
+      "location_id": 13,
+      "name": "Nagpur",
+      "state_id": 1,
+      "state_code": "MH",
+      "state": "Maharashtra"
+    },
+    {
+      "id": 125876,
+      "location_id": 111215,
+      "name": "Nagpur",
+      "state_id": 11,
+      "state_code": "MP",
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 126971,
+      "location_id": 112310,
+      "name": "Nagpur",
+      "state_id": 14,
+      "state_code": "HR",
+      "state": "Haryana"
+    },
+    {
+      "id": 127647,
+      "location_id": 112986,
+      "name": "Nagpur",
+      "state_id": 9,
+      "state_code": "UP",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 128044,
+      "location_id": 113383,
+      "name": "Nagpur",
+      "state_id": 4,
+      "state_code": "GJ",
+      "state": "Gujarat"
+    },
+    {
+      "id": 129989,
+      "location_id": 115331,
+      "name": "Nagpur",
+      "state_id": 17,
+      "state_code": "CG",
+      "state": "Chhattisgarh"
+    },
+    {
+      "id": 134796,
+      "location_id": 120138,
+      "name": "Nagpur Bk.",
+      "state_id": 1,
+      "state_code": "MH",
+      "state": "Maharashtra"
+    },
+    {
+      "id": 5306516600,
+      "location_id": 5306516600,
+      "name": "Nagpur Kalan",
+      "state_id": 11,
+      "state_code": "MP",
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 189606,
+      "location_id": 174948,
+      "name": "Nagpur Kh.",
+      "state_id": 1,
+      "state_code": "MH",
+      "state": "Maharashtra"
+    },
+    {
+      "id": 134845,
+      "location_id": 120187,
+      "name": "Nagpur Kunwar",
+      "state_id": 9,
+      "state_code": "UP",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "id": 22292,
+      "location_id": 21951,
+      "name": "Nagpura",
+      "state_id": 10,
+      "state_code": "BR",
+      "state": "Bihar"
+    },
+    {
+      "id": 124368,
+      "location_id": 109707,
+      "name": "Nagpura",
+      "state_id": 17,
+      "state_code": "CG",
+      "state": "Chhattisgarh"
+    },
+    {
+      "id": 127966,
+      "location_id": 113305,
+      "name": "Nagpura",
+      "state_id": 8,
+      "state_code": "RJ",
+      "state": "Rajasthan"
+    },
+    {
+      "id": 135947,
+      "location_id": 121289,
+      "name": "Nagpura",
+      "state_id": 11,
+      "state_code": "MP",
+      "state": "Madhya Pradesh"
+    },
+    {
+      "id": 198672,
+      "location_id": 184010,
+      "name": "Nagpuri",
+      "state_id": 28,
+      "state_code": "HP",
+      "state": "Himachal Pradesh"
+    },
+    {
+      "id": 125735,
+      "location_id": 111074,
+      "name": "Nagpuria",
+      "state_id": 11,
+      "state_code": "MP",
+      "state": "Madhya Pradesh"
+    }
+  ]
+}
