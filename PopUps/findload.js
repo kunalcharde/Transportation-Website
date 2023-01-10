@@ -8,17 +8,18 @@ export function findLoad(){
 findload_link.addEventListener('click',()=>{
     // console.log("kunal")
     findload_pop.classList.toggle("active")
+
 })
 
 
 closeBtn.addEventListener('click',()=>{ 
     console.log("object")
     findload_pop.classList.remove("active")
+    window.history.back()
 })
 
 findloadBtn_btn.addEventListener('click',(e)=>{
     e.preventDefault()
     findload_pop.classList.remove("active")
 })
-
 }
